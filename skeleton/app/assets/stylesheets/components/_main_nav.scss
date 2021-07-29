@@ -58,13 +58,20 @@
   border-radius: 5%;
 }
 
+.right-nav .blue:hover {
+  background-color: $blue;
+}
+.left-nav .grey:hover {
+  background-color: $light-gray;
+}
+
 .login-btn {
   background: $light-blue;
   color: white;
 }
 
 .subscribe-btn {
-  background: $blue;
+  background: $light-blue;
   color: white;
 }
 
@@ -76,6 +83,9 @@
 .left-nav button {
   text-transform: uppercase;
   font-weight: 700;
+  padding: 6px 10px;
+  margin: 0 5px;
+  border-radius: 5%;
 }
 
 i {
